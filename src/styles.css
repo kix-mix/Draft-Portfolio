@@ -114,3 +114,9 @@ p {
 .left-align {
   justify-content: left;
 }
+
+@media (max-width: 390px) {
+  h2 {
+    text-align: center;
+  }
+}
