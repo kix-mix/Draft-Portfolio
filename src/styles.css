@@ -1,0 +1,66 @@
+:root {
+  --background-color: #fff;
+  --main-color: #6c63ff;
+  --secondary-color: #f4f2fe;
+  --box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  margin: 40px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 96px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 48px;
+  margin: auto;
+}
+
+h3 {
+  font-size: 24px;
+  margin: auto;
+}
+
+.biography {
+  display: flex;
+  justify-content: left;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.contact-me {
+  padding: 20px;
+  background-color: var(--main-color);
+  color: #fff;
+  border: solid var(--main-color);
+  border-radius: 6px;
+  box-shadow: var(--box-shadow);
+}
+
+.about-me {
+  padding: 20px;
+  background-color: var(--background-color);
+  color: var(--main-color);
+  border: solid var(--main-color);
+  border-radius: 6px;
+}
+
+.my-backstory {
+  font-size: 18px;
+  line-height: 1.5;
+  display: block;
+  padding: 20px;
+  margin: 0 10px;
+  border-radius: 4px;
+  background-color: var(--secondary-color);
+}
